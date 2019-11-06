@@ -206,6 +206,7 @@ section img:hover{
     /*background-image: url('https://images.pexels.com/photos/3076820/pexels-photo-3076820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');*/
     background-size: cover;
     background-attachment: fixed;
+    margin-left: 0;
 }
 
 #overlay{
@@ -219,6 +220,7 @@ nav{
     position: sticky;
     top:0;
     margin-bottom: 2%;
+    margin-left: 0;
 }
 
 nav div{
@@ -250,15 +252,17 @@ nav div img{
 }
 
 nav ul{
-    text-align: right;
+    display: flex;
     padding: 2%;
-    padding-left: 4px;
+    padding-left: 1%;
+    margin-right: 5%;
 
 }
 
 nav ul li{
     display: inline-block;
-    padding: 2%;
+    padding: 1%;
+    clear: both;
 }
 
 nav ul li a{
@@ -276,13 +280,14 @@ nav ul li a:hover, .active{
     transition: 0.5s;
 }
 
-.container .table{
+.container{
     background-color: rgba(0, 0, 0, 0.6);
     height: 80%;
-    width: 50%;
+    width: 100%;
     color: white;
-    margin-left: 25%;
-    margin-right: 25%;
+}
+.table{
+    margin-top: 10%;
 }
 
 table{
@@ -294,7 +299,7 @@ table td, table tr, table th{
 }
 
 table td{
-    padding-right: 50px;
+    padding-right: 2px;
 }
 
 
